@@ -1,12 +1,12 @@
 # kindle-weather-dashboard
 
-Simple webpage with weather information.
+My customized version of a simple webpage with weather information.
 
 # Try it!
 
-Go to: http://kindle.hrincar.eu/weather/ and that's it!
+Original version at: http://kindle.hrincar.eu/weather/ and that's it!
 
-or you can install it on your own server, customize it, or run it locally on your Kindle.
+This version includes my own modifications and may remove some of the original code over time.
 
 _Please, if you use this website, generate your free OWM token (see: https://openweathermap.org/api for more info), because the default token can be blocked and changed at any time and the weather forecast can stop working._
 
@@ -17,13 +17,18 @@ _Please, if you use this website, generate your free OWM token (see: https://ope
 * **sunrise and sunset**
 * **Moon phase**
 
+### Plan to Add
+
+* pizza index
+* other things??
+
 ## Options
 
 * **portrait and landscape mode**
 * **landscape mode on Paperwhite!!** see configuration
 * configurable place, units, language
 * automatic night mode
-* tested on **Kindle 3/4/5, Paperwhite 3, iPad Air**, *it may also work on other Kindles and devices*,
+* I am running this on a kindle papwerwhite 10th gen. The page displays great but the screen going to sleep is a challenge. Mobile Read forums usually has the most updated info on how to get around this. I was able to do it by jailbreaking the device and eventually creating a file that contains the command to disable the screensaver. The very short version of this is that as of at least early 2026, Amazon has removed the abilty to run commands via the search bar in the kindle paperwhite firmware. However, the commands still exist in the operating system and I was able to access them in this other way thanks to the lovely folks sharing what they have learned over on those forums. I'll post the exact thread if I can find it again.
 
 Weather and forecast source: https://openweathermap.org/
 
